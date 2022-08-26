@@ -956,6 +956,27 @@ section {
   color: #47b2e4;
 }
 
+@media (max-width: 992px) {
+  .services .services section-bg .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .services .services section-bg .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .services .services section-bg .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -1905,4 +1926,13 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+
+  #footer .footer-top {
+    width: 100%;
+  }
+
+  .back-to-top{
+    display: none;
+  }
+
 }
